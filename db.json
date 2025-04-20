@@ -1,0 +1,88 @@
+{
+    "bots": [
+        {
+            "id": 101,
+            "name": "wHz-93",
+            "health": 94,
+            "damage": 20,
+            "armor": 63,
+            "bot_class": "Support",
+            "catchphrase": "1010010101001101100011000111101",
+            "avatar_url": "https://robohash.org/nostrumrepellendustenetur.png?size=300x300&set=set1",
+            "created_at": "2018-10-02T19:55:10.800Z",
+            "updated_at": "2018-10-02T19:55:10.800Z"
+        },
+        {
+            "id": 102,
+            "name": "RyM-66",
+            "health": 86,
+            "damage": 36,
+            "armor": 77,
+            "bot_class": "Medic",
+            "catchphrase": "0110011100000100011110100110011000011001",
+            "avatar_url": "https://robohash.org/quidemconsequaturaut.png?size=300x300&set=set1",
+            "created_at": "2018-10-02T19:55:10.827Z",
+            "updated_at": "2018-10-02T19:55:10.827Z"
+        },
+        {
+            "id": 103,
+            "name": "ZXR-07",
+            "health": 78,
+            "damage": 45,
+            "armor": 50,
+            "bot_class": "Assault",
+            "catchphrase": "010101000110100101110011",
+            "avatar_url": "https://robohash.org/zxr07.png?size=300x300&set=set1",
+            "created_at": "2018-10-02T19:55:10.850Z",
+            "updated_at": "2018-10-02T19:55:10.850Z"
+        },
+        {
+            "id": 104,
+            "name": "MLX-01",
+            "health": 99,
+            "damage": 12,
+            "armor": 90,
+            "bot_class": "Defender",
+            "catchphrase": "011000110101000001010111",
+            "avatar_url": "https://robohash.org/mlx01.png?size=300x300&set=set1",
+            "created_at": "2018-10-02T19:55:10.870Z",
+            "updated_at": "2018-10-02T19:55:10.870Z"
+        },
+        {
+            "id": 105,
+            "name": "THR-22",
+            "health": 70,
+            "damage": 65,
+            "armor": 30,
+            "bot_class": "Striker",
+            "catchphrase": "100100100111000001101010",
+            "avatar_url": "https://robohash.org/thr22.png?size=300x300&set=set1",
+            "created_at": "2018-10-02T19:55:10.890Z",
+            "updated_at": "2018-10-02T19:55:10.890Z"
+        },
+        {
+            "id": 106,
+            "name": "GLD-77",
+            "health": 60,
+            "damage": 55,
+            "armor": 40,
+            "bot_class": "Scout",
+            "catchphrase": "001011100101110101010000",
+            "avatar_url": "https://robohash.org/gld77.png?size=300x300&set=set1",
+            "created_at": "2018-10-02T19:55:10.910Z",
+            "updated_at": "2018-10-02T19:55:10.910Z"
+        },
+        {
+            "id": 107,
+            "name": "NX-88",
+            "health": 85,
+            "damage": 30,
+            "armor": 80,
+            "bot_class": "Tank",
+            "catchphrase": "110110001100111100000101",
+            "avatar_url": "https://robohash.org/nx88.png?size=300x300&set=set1",
+            "created_at": "2018-10-02T19:55:10.930Z",
+            "updated_at": "2018-10-02T19:55:10.930Z"
+        }
+    ]
+}
