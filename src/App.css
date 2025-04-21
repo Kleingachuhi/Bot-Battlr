@@ -1,0 +1,64 @@
+
+body {
+  background-color: #516579;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.ui.card {
+  background-color: #2667a862;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.ui.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
+.ui.card .image img {
+  border-radius: 10px 10px 0 0;
+}
+
+.bot-army {
+  background-color: #323f4b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.bot-army-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ui.four.column.grid .row,
+.ui.five.column.grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.extra.content span {
+  display: inline-block;
+  margin-right: 10px;
+  color: #e0e1e2;
+}
+
+.ui.button {
+  background-color: #2185d0;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.ui.button:hover {
+  background-color: #1678c2;
+}

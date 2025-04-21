@@ -1,12 +1,58 @@
-# React + Vite
+# 🤖 Bot Battlr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Bot Battlr**, a fun little React app where you can build your own custom bot army from a galactic catalog of mechanical misfits. It’s kind of like Pokémon, but with more lasers and less legality.
 
-Currently, two official plugins are available:
+This was built as part of a code challenge to practice working with component hierarchies, props/state management, and data fetching using JSON Server.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚦 What It Does
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse a list of bots (each with their own stats and personality).
+- Click on a bot to see more detailed info.
+- Choose to enlist a bot into your army.
+- Bots can be toggled in and out of your army.
+
+---
+
+## 🛠 Tech Stuff
+
+- **React** for the frontend (functional components + hooks)
+- **JSON Server** for mocking the backend
+---
+
+## 🧪 How to Run It
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/bot-battlr.git
+cd bot-battlr
+2. Install dependencies
+bash
+
+npm install
+3. Set up the JSON server
+You’ll need to have json-server installed globally. If you don’t have it:
+
+bash
+
+
+npm install -g json-server
+Then run:
+
+bash
+
+json-server --watch db.json --port 8001
+4. Fire up the React app
+bash
+
+npm start
+Now just head to http://localhost:3000 and you’re off to the races.
+
+🌐 API Endpoints
+GET /bots
+Returns a list of all bots.
+
+📜 License
+This project is for educational purposes only. All robot data and images are for demo use.
+
