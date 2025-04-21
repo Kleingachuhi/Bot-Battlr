@@ -6,9 +6,9 @@ import BotSpecs from "../components/BotSpecs";
 function BotsPage() {
   const [allBots, setAllBots] = useState([]);
   const [selectedBot, setSelectedBot] = useState(null);
-
+const apiURL = "http://localhost:4000/bots"
   useEffect(() => {
-    fetch("http://localhost:3000/bots")
+    fetch(apiURL)
       .then((res) => res.json())
       .then((data) => {
         const botsWithOwned = data.map((bot) => ({ ...bot, owned: false }));
