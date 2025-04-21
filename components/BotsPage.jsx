@@ -6,7 +6,7 @@ import BotSpecs from "../components/BotSpecs";
 function BotsPage() {
   const [allBots, setAllBots] = useState([]);
   const [selectedBot, setSelectedBot] = useState(null);
-const apiURL = "http://localhost:4000/bots"
+const apiURL = "process.env.REACT_APP_API_URL"
   useEffect(() => {
     fetch(apiURL)
       .then((res) => res.json())
