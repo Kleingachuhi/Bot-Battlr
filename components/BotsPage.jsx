@@ -6,7 +6,7 @@ import BotSpecs from "../components/BotSpecs";
 function BotsPage() {
   const [allBots, setAllBots] = useState([]);
   const [selectedBot, setSelectedBot] = useState(null);
-const apiURL = "process.env.REACT_APP_API_URL"
+const apiURL = "https://bot-battr-json-server-for-fetch.vercel.app/bots"
   useEffect(() => {
     fetch(apiURL)
       .then((res) => res.json())
